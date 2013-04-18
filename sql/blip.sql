@@ -3,6 +3,6 @@ CREATE SEQUENCE blip_seq;
 CREATE TABLE blip_tbl (
 	id BIGINT NOT NULL DEFAULT NEXTVAL( 'blip_seq' ),
 	key VARCHAR(2048) NOT NULL,
-    session VARCHAR(2048),
+    identifier VARCHAR(2048),
 	timestamp TIMESTAMP NOT NULL DEFAULT NOW(),
 	CONSTRAINT blip_pk PRIMARY KEY ( id ) );
