@@ -6,6 +6,5 @@ It has a simple input mechanism, and [will ?] offer some viewing capability for 
 
 ##Setup
 
-* Based on [Open Resty](http://openresty.org/)
 * Simple http based interface
     * http://localhost:7777/blip?key=here.there&session=123
